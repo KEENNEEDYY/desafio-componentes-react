@@ -1,0 +1,12 @@
+header{
+    background-color: var(--ctop-color-bg-two);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+header h1{
+    color: var(--ctop-color-font-tree);
+    font-size: 20px;
+}
