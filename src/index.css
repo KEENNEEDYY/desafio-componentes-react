@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
 
 :root {
-  --ctop-color-bg-one: #e8e8e8e8;
+  --ctop-color-bg-one: #fff;
+  --ctop-color-bg-two: #3C9AF0;
+  --ctop-color-bg-tree: #D9D9D900;
+  --ctop-color-bg-fuor: #C8C8C8;
+  
+  --ctop-color-font-one: #5E5E5E; 
+  --ctop-color-font-two: #3C9AF0; 
+  --ctop-color-font-tree: #fff;
 }
 
 *{
@@ -20,6 +27,8 @@ html, body {
   background-color: var(--ctop-color-bg-one);
 }
 
-main {
-  padding: 0 20px;
+.ctop-container{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
