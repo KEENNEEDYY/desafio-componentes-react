@@ -7,10 +7,13 @@ export default function Catalog() {
         <>
             <main className="ctop-catalog-main">
                 <section id="ctop-catalog-section" className="ctop-container">
-                    <div className="cto-catalog-title">
+                    <div className="ctop-catalog-title">
                         <h1>Venha nos visitar</h1>
                     </div>
                     <div className="ctop-catalog-cards-container">
+                        <CatalogCard />
+                        <CatalogCard />
+                        <CatalogCard />
                         <CatalogCard />
                     </div>
                 </section>
