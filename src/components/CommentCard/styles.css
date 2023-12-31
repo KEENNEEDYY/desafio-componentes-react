@@ -1,0 +1,20 @@
+.ctop-catalog-comment-card{
+    background-color: var(--ctop-color-bg-one);
+    border: 1px solid var(--ctop-color-font-two);
+    border-radius: 12px;
+    padding: 25px 20px;
+    max-width: 600px;
+    margin-top: 25px;
+}
+
+.ctop-catalog-comment-card p{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--ctop-color-font-two);
+}
+
+@media (min-width: 1200px) {
+    .ctop-catalog-comment-card{
+        max-width: 900px;
+    }
+}
