@@ -1,0 +1,21 @@
+footer{
+    background-color: var(--ctop-color-bg-two);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.ctop-footer-container p{
+    color: var(--ctop-color-font-tree);
+    font-size: 16px;
+    font-weight: 400px;
+}
+
+@media (min-width: 1200px) {
+    .ctop-footer-container{
+        padding: 25px 120px;
+        display: flex;
+        justify-content: space-between;
+    }       
+}
