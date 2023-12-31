@@ -1,11 +1,10 @@
 .ctop-catalog-main{
-    padding: 25px 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 .ctop-catalog-main section{
-    padding-bottom: 25px;
+    padding: 25px 20px;
 }
 .ctop-catalog-title{
     text-align: center;
@@ -15,4 +14,15 @@
     display: flex;    
     flex-direction: column;
     align-items: center;
+}
+#ctop-comments-section{
+    width: 100%;
+    background-color: var(--ctop-color-bg-four);
+    margin: 0 0;
+}
+
+@media (min-width: 1200px) {
+    .ctop-catalog-main section{
+        padding: 25px 120px;
+    }
 }
