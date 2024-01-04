@@ -12,6 +12,12 @@
     font-weight: 400;
     color: var(--ctop-color-font-two);
 }
+@media (min-width: 426px) {
+    .ctop-catalog-comment-card{
+        max-width: 900px;
+        width: calc(100% - 7vw);
+    }
+}
 
 @media (min-width: 1200px) {
     .ctop-catalog-comment-card{
