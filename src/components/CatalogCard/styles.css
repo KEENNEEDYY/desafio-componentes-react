@@ -1,4 +1,6 @@
 .ctop-catalog-card{
+    max-width: 746px;
+    max-height: 352px;
     width: 280px;
     height: 248px;
     border: 1px solid var(--ctop-color-bg-two);
@@ -16,6 +18,11 @@
 .ctop-catalog-card h3{
     font-size: 16px;
     color: var(--ctop-color-font-one);
+}
+@media (min-width: 462px) {
+    .ctop-catalog-card{
+        width: calc(100% - 5vw);
+    }
 }
 @media (min-width:1200px) {
     .ctop-catalog-card{
